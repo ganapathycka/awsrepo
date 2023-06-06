@@ -1,6 +1,6 @@
 resource "aws_instance" "aws" {
-  ami = var.ami_info
-  instance_type = var.mtype
+  ami = "ami-084e8c05825742534"
+  instance_type = "t2.micro"
   tags = {
     Name = "Development"
   }
